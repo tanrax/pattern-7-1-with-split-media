@@ -2,36 +2,36 @@
 
 // 1. Configuration and helpers
 
-@import abstracts/variables
-@import abstracts/mixins
+@use "abstracts/variables"
+@use "abstracts/mixins"
 
 // 2. Vendors
 
-@import vendors/normalize
+@use "vendors/normalize"
 
 // 3. Base stuff
 
-@import base/base
-@import base/fonts
-@import base/typography
-@import base/helpers
+@use "base/base"
+@use "base/fonts"
+@use "base/typography"
+@use "base/helpers"
 
 // 4. Layout-related sections
 
-@import mobile/layout/header
-@import mobile/layout/footer
+@use "mobile/layout/header"
+@use "mobile/layout/footer"
 
 // 5. Components
 
-@import mobile/components/alert
-@import mobile/components/button
+@use "mobile/components/alert"
+@use "mobile/components/button"
 
 // 6. Page-specific styles
 
-@import mobile/pages/home
-@import mobile/pages/contact
+@use "mobile/pages/home"
+@use "mobile/pages/contact"
 
 // 7. Themes
 
-@import themes/light
-@import themes/dark
+@use "themes/light"
+@use "themes/dark"

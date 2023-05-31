@@ -2,36 +2,36 @@
 
 // 1. Configuration and helpers
 
-@import abstracts/variables
-@import abstracts/mixins
+@use "abstracts/variables"
+@use "abstracts/mixins"
 
 // 2. Vendors
 
-@import vendors/normalize
+@use "vendors/normalize"
 
 // 3. Base stuff
 
-@import base/base
-@import base/fonts
-@import base/typography
-@import base/helpers
+@use "base/base"
+@use "base/fonts"
+@use "base/typography"
+@use "base/helpers"
 
 // 4. Layout-related sections
 
-@import desktop/layout/header
-@import desktop/layout/footer
+@use "desktop/layout/header"
+@use "desktop/layout/footer"
 
 // 5. Components
 
-@import desktop/components/alert
-@import desktop/components/button
+@use "desktop/components/alert"
+@use "desktop/components/button"
 
 // 6. Page-specific styles
 
-@import desktop/pages/home
-@import desktop/pages/contact
+@use "desktop/pages/home"
+@use "desktop/pages/contact"
 
 // 7. Themes
 
-@import themes/light
-@import themes/dark
+@use "themes/light"
+@use "themes/dark"
